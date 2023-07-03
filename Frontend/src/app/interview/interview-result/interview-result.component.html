@@ -1,0 +1,20 @@
+<body>
+    <div class="container">
+      <div class="header">
+        <h2>Admission test submitted successfully!</h2>
+      </div>
+      <p class="message">Test results will be communicated through your email very soon.</p>
+      <div class="answers">
+        <h3>Your Answers:</h3>
+        <ul class="answers-list">
+          <li *ngFor="let answer of answers">{{ answer.questionText }}: {{ answer.answer }}</li>
+        </ul>
+      </div>
+      <div class="footer">
+        <p>This test is powered by <a href="https://www.esprit.tn/" target="_blank">ESPRIT School of Engineering</a>.</p>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <app-footland></app-footland>
+  </body>
+  

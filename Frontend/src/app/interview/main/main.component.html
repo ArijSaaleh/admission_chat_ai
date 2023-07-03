@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+  <div class="logo-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_ESPRIT_-_Tunisie.png" alt="Esprit Logo">
+  </div>
+  <div class="header">
+    <button class="logout-button" (click)="logout()">Logout</button>
+    
+  </div>
+  <div class="interview-container">
+    <div class="video-container">
+      <div class="video-frame">
+        <video #videoElement autoplay width="100%" height="100%"></video>
+      </div>
+      <div class="controls">
+        <button class="control-button camera" (click)="toggleCamera()">
+          <i class="fas fa-video"></i>
+        </button>
+        <button class="control-button microphone"><i class="fas fa-microphone"></i></button>
+      </div>
+    </div>
+
+    <app-interview-content></app-interview-content>
+
+  </div>
+</body>
+
+</html>

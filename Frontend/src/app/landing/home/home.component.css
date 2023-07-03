@@ -1,0 +1,56 @@
+.home-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-half {
+  flex: 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-container {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.left-half {
+  text-align: center;
+  
+}
+
+.left-half img {
+  padding-top: 80px;
+  padding-right: 100px;
+  width: 320px;
+}
+.text-container {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  color: #ffffff;
+  padding-right: 50px;
+}
+
+.text-container h2 {
+  font-weight: 1000;
+  font-size: 40px;
+}
+.left-half:before {
+  content: "";
+  position: absolute;
+  /* Adjust the value to control the position */
+  top: -35px;
+  left: 0px;
+  width: 700px;
+  height: 900px;
+  background-color: #c00000;
+  border-top-right-radius: 90%;
+  border-bottom-right-radius: 00%;
+  z-index: -1;
+  /* bch t5aleha fel background*/
+}

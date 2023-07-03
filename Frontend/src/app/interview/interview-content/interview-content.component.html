@@ -1,0 +1,23 @@
+<div class="content-container">
+  <h1 class="interview-title">Welcome to Your Admission Test</h1>
+  <p class="motivation-quote">Good luck! You can do it.</p>
+  <p class="instructions">Feel free to answer using texts or voice.</p>
+
+  <button class="start-interview-button" *ngIf="!isInterviewStarted" (click)="startInterview()">Start the
+    Interview</button>
+
+  <div *ngIf="isInterviewStarted">
+    <h2 class="questions-title">Test Questions</h2>
+    <div class="question-container" *ngIf="currentQuestionIndex < questions.length">
+      <h3 class="current-question">{{ questions[currentQuestionIndex] }}</h3>
+      <textarea [(ngModel)]="userResponses[currentQuestionIndex]" placeholder="Your response"
+        class="response-input"></textarea>
+    </div>
+
+    <button class="next-button" *ngIf="currentQuestionIndex < questions.length - 1" (click)="nextQuestion()"
+      [disabled]="!isQuestionAnswered()">Next Question</button>
+
+    <button class="submit-button" *ngIf="currentQuestionIndex === questions.length - 1"
+      (click)="submitInterview()">Submit</button>
+  </div>
+</div>

@@ -1,0 +1,135 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 500px;
+}
+
+.perso {
+  display: flex;
+}
+
+.perso1 {
+  display: flex;
+  margin-left: auto;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.user-message {
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 8px;
+  border-radius: 8px;
+  margin-right: auto;
+}
+
+.assistant-message {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  margin-left: auto;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-avatar {
+  order: -1;
+  margin-right: 8px;
+}
+
+.assistant-avatar {
+  margin-left: 8px;
+}
+
+.message-content {
+  flex: 1;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  margin-right: 8px;
+}
+
+.send-button {
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 4px;
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 8px;
+}
+
+::-moz-scrollbar-track {
+  background: transparent;
+}
+
+::-moz-scrollbar-thumb {
+  background: #999;
+  border-radius: 4px;
+}
+
+/* For Internet Explorer and Microsoft Edge */
+::-ms-scrollbar {
+  width: 8px;
+}
+
+::-ms-scrollbar-track {
+  background: transparent;
+}
+
+::-ms-scrollbar-thumb {
+  background: #999;
+  border-radius: 4px;
+}

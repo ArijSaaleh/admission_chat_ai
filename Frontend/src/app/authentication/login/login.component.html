@@ -1,0 +1,23 @@
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="logo-container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_ESPRIT_-_Tunisie.png" alt="Esprit Logo">
+    </div>
+    <h2>Login for Admission Test</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="username"><i class="fas fa-user input-icon"></i> Username:</label>
+        <input type="text" id="username" formControlName="username">
+      </div>
+      <div class="form-group">
+        <label for="password"><i class="fas fa-lock input-icon"></i> Password:</label>
+        <input type="password" id="password" formControlName="password">
+      </div>
+      <button type="submit"><i class="fas fa-sign-in-alt"></i> Login</button>
+    </form>
+  </div>
+</body>

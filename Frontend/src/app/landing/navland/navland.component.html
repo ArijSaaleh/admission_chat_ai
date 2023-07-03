@@ -1,0 +1,18 @@
+<div class="navbar">
+    <div class="logo">
+        <a routerLink="/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_ESPRIT_-_Tunisie.png" />
+        </a>
+    </div>
+    <div class="left-menu">
+        <a routerLink="/home">Home</a>
+        <a routerLink="/aboutUs">About Us</a>
+    </div>
+    <div class="right-menu">
+        <a *ngIf="!isLoggedIn" routerLink="/login">Login</a>
+        <a *ngIf="!isLoggedIn" routerLink="/register">Register</a>
+        <a *ngIf="isLoggedIn" (click)="logout()">Logout</a>
+    </div>
+    <div style="clear:both;"></div>
+
+</div>

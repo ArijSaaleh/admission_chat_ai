@@ -1,0 +1,41 @@
+<body>
+  <div class="registration-container">
+    <div class="logo-container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_ESPRIT_-_Tunisie.png" alt="Esprit Logo">
+    </div>
+    <h2>Registration for Admission Test</h2>
+    <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" formControlName="username">
+        <div *ngIf="registrationForm.get('username')?.invalid && registrationForm.get('username')?.touched" class="error-message">Username is required</div>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" formControlName="password">
+        <div *ngIf="registrationForm.get('password')?.invalid && registrationForm.get('password')?.touched" class="error-message">Password is required</div>
+      </div>
+
+      <div class="form-group">
+        <label for="role">Role</label>
+        <select id="role" formControlName="role" (change)="onRoleChange()">
+          <option value="">Select Role</option>
+          <option value="admin">Admin</option>
+          <option value="candidate">Candidate</option>
+        </select>
+        <div *ngIf="registrationForm.get('role')?.invalid && registrationForm.get('role')?.touched" class="error-message">Role is required</div>
+      </div>
+
+      <div *ngIf="isAdmin">
+        <div *ngIf="registrationForm.get('role')?.value === 'admin'" class="form-group">
+          <label for="AdministrativeID">Admin ID</label>
+          <input type="text" id="AdministrativeID" formControlName="AdministrativeID">
+          <div *ngIf="registrationForm.get('AdministrativeID')?.invalid && registrationForm.get('AdministrativeID')?.touched" class="error-message">Admin ID is required</div>
+        </div>
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>

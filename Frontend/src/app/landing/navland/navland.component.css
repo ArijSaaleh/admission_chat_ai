@@ -1,0 +1,64 @@
+/* Navbar container */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  padding: 20px;
+}
+
+/* Logo */
+.logo {
+  float: left;
+  margin-right: 20px;
+}
+
+
+.logo img {
+  max-height: 40px; /* Adjust the max-height as needed */
+}
+/* Left menu items */
+.left-menu {
+  float: left;
+}
+
+.left-menu a {
+  font-family: Arial, sans-serif; /* Specify the desired font family */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 17px ;
+  margin-right: 10px;
+  padding: 10px 15px; /* Adjust the padding values as needed */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.left-menu a:hover {
+  background-color: #c50000;
+  color: white;
+}
+
+/* Right menu items */
+.right-menu {
+  float: right;
+}
+
+.right-menu a {
+  font-family: Arial, sans-serif; /* Specify the desired font family */
+  color: #202020;
+  font-size: 17px ;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 10px 15px; /* Adjust the padding values as needed */
+  text-decoration: none;
+  border-radius: 5px;
+  
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.right-menu a:hover {
+  background-color: #c50000;
+  color: white;
+}

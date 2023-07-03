@@ -1,0 +1,124 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-container {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.logo-container img {
+  max-height: 60px;
+  width: 150px;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.logout-button:hover{
+  background-color: #c00000;
+}
+/* Interview container styles */
+.interview-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Video container styles */
+.video-container {
+  background-image: url("https://static.bhphotovideo.com/explora/sites/default/files/TTT.png");
+  background-size: 110%;
+  background-position: center;
+  margin-right: 80px;
+  background-color: #333;
+  border-radius: 5%;
+  width: 40%;
+  padding-top: 28.125%;
+  /* Maintain 16:9 aspect ratio */
+  position: relative;
+}
+
+.video-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Controls styles */
+.controls {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.control-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.control-button:hover {
+  background-color: #c00000;
+}
+
+/* Interview content styles */
+app-interview-content {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 4px;
+  width: 50%;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .interview-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .video-container {
+    width: 100%;
+    padding-top: 56.25%;
+    /* Maintain 16:9 aspect ratio */
+    margin-bottom: 20px;
+  }
+
+  app-interview-content {
+    width: 100%;
+  }
+}

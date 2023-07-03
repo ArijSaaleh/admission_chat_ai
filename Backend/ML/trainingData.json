@@ -1,0 +1,334 @@
+{
+  "data": [
+    {
+      "text": "I am highly motivated and dedicated to pursuing my education.",
+      "label": "positive"
+    },
+    {
+      "text": "I have a strong academic background with excellent grades.",
+      "label": "positive"
+    },
+    {
+      "text": "I actively participate in various community service activities.",
+      "label": "positive"
+    },
+    {
+      "text": "I have strong leadership skills and have held positions of responsibility.",
+      "label": "positive"
+    },
+    {
+      "text": "I have conducted research in my field of interest.",
+      "label": "positive"
+    },
+    {
+      "text": "I have received recognition for my achievements in extracurricular activities.",
+      "label": "positive"
+    },
+    {
+      "text": "I possess excellent communication and interpersonal skills.",
+      "label": "positive"
+    },
+    {
+      "text": "I am enthusiastic about learning and constantly seek knowledge.",
+      "label": "positive"
+    },
+    {
+      "text": "I have a strong work ethic and consistently meet deadlines.",
+      "label": "positive"
+    },
+    {
+      "text": "I actively engage in collaborative projects and group work.",
+      "label": "positive"
+    },
+    {
+      "text": "I have a well-rounded background with diverse experiences.",
+      "label": "positive"
+    },
+    {
+      "text": "I have a clear career goal and a plan to achieve it.",
+      "label": "positive"
+    },
+    {
+      "text": "I am highly motivated and dedicated to pursuing my goals.",
+      "label": "positive"
+    },
+    {
+      "text": "I believe in my abilities and know that I can achieve great things.",
+      "label": "positive"
+    },
+    {
+      "text": "I am driven by my passion for success and continuous improvement.",
+      "label": "positive"
+    },
+    {
+      "text": "I embrace challenges as opportunities for growth and development.",
+      "label": "positive"
+    },
+    {
+      "text": "I am inspired by the achievements of others and strive to reach similar heights.",
+      "label": "positive"
+    },
+    {
+      "text": "I am committed to lifelong learning and acquiring new skills.",
+      "label": "positive"
+    },
+    {
+      "text": "I surround myself with positive influences and like-minded individuals.",
+      "label": "positive"
+    },
+    {
+      "text": "I set clear goals and work diligently towards achieving them.",
+      "label": "positive"
+    },
+    {
+      "text": "I maintain a positive mindset and focus on solutions rather than problems.",
+      "label": "positive"
+    },
+    {
+      "text": "I celebrate small victories and use them as motivation to keep going.",
+      "label": "positive"
+    },
+    {
+      "text": "I constantly seek new opportunities for personal and professional growth.",
+      "label": "positive"
+    },
+    {
+      "text": "I am resilient in the face of adversity and use setbacks as stepping stones.",
+      "label": "positive"
+    },
+    {
+      "text": "I believe that every challenge is an opportunity to learn and improve.",
+      "label": "positive"
+    },
+    {
+      "text": "I am grateful for the opportunities that come my way and make the most of them.",
+      "label": "positive"
+    },
+    {
+      "text": "I inspire and motivate others through my actions and achievements.",
+      "label": "positive"
+    },
+    {
+      "text": "I have a clear vision of success and take consistent action towards its realization.",
+      "label": "positive"
+    },
+    {
+      "text": "I believe that my hard work and dedication will lead to great results.",
+      "label": "positive"
+    },
+    {
+      "text": "I take ownership of my goals and hold myself accountable for their attainment.",
+      "label": "positive"
+    },
+    {
+      "text": "I am excited about the future and the possibilities it holds.",
+      "label": "positive"
+    },
+    {
+      "text": "I believe that my efforts today will create a brighter tomorrow.",
+      "label": "positive"
+    },
+    {
+      "text": "I am open-minded and embrace new challenges and opportunities.",
+      "label": "positive"
+    },
+    {
+      "text": "I have strong problem-solving skills and can think critically.",
+      "label": "positive"
+    },
+    {
+      "text": "I have a passion for my chosen field of study.",
+      "label": "positive"
+    },
+    {
+      "text": "I have strong time management skills and can balance multiple tasks effectively.",
+      "label": "positive"
+    },
+    {
+      "text": "I have a positive attitude and adapt well to different situations.",
+      "label": "positive"
+    },
+    {
+      "text": "I have received positive feedback from my teachers and mentors.",
+      "label": "positive"
+    },
+    {
+      "text": "I have demonstrated a commitment to continuous learning and personal growth.",
+      "label": "positive"
+    },
+    {
+      "text": "I have relevant work experience in the field.",
+      "label": "positive"
+    },
+    {
+      "text": "I have good problem-solving skills and can handle difficult situations.",
+      "label": "positive"
+    },
+    {
+      "text": "I struggle with time management and often miss deadlines.",
+      "label": "negative"
+    },
+    {
+      "text": "I lack experience in the field and need more training.",
+      "label": "negative"
+    },
+    {
+      "text": "I have difficulty working in teams and prefer to work alone.",
+      "label": "negative"
+    },
+    {
+      "text": "I am not confident in my abilities and often doubt myself.",
+      "label": "negative"
+    },
+    {
+      "text": "I have a poor academic record with low grades.",
+      "label": "negative"
+    },
+    {
+      "text": "I struggle with communication and have difficulty expressing my ideas.",
+      "label": "negative"
+    },
+    {
+      "text": "I lack motivation and find it hard to stay focused.",
+      "label": "negative"
+    },
+    {
+      "text": "I have a negative attitude and find it hard to adapt to new situations.",
+      "label": "negative"
+    },
+    {
+      "text": "I have a limited understanding of the subject matter.",
+      "label": "negative"
+    },
+    {
+      "text": "I have poor problem-solving skills and often get stuck.",
+      "label": "negative"
+    },
+    {
+      "text": "I struggle with organization and often feel overwhelmed.",
+      "label": "negative"
+    },
+    {
+      "text": "I lack leadership skills and have not held any positions of responsibility.",
+      "label": "negative"
+    },
+    {
+      "text": "I often doubt my abilities and struggle with self-confidence.",
+      "label": "negative"
+    },
+    {
+      "text": "I feel overwhelmed by the challenges ahead and question if I can handle them.",
+      "label": "negative"
+    },
+    {
+      "text": "I lack motivation and find it hard to stay focused on my goals.",
+      "label": "negative"
+    },
+    {
+      "text": "I often compare myself to others and feel inadequate.",
+      "label": "negative"
+    },
+    {
+      "text": "I have a fear of failure that holds me back from taking risks.",
+      "label": "negative"
+    },
+    {
+      "text": "I struggle with procrastination and find it difficult to start or complete tasks.",
+      "label": "negative"
+    },
+    {
+      "text": "I have a negative mindset that hinders my progress and success.",
+      "label": "negative"
+    },
+    {
+      "text": "I feel stuck in a cycle of mediocrity and lack a sense of purpose.",
+      "label": "negative"
+    },
+    {
+      "text": "I lack direction and clarity in my goals and aspirations.",
+      "label": "negative"
+    },
+    {
+      "text": "I find it hard to handle criticism and often take it personally.",
+      "label": "negative"
+    },
+    {
+      "text": "I struggle with time management and frequently miss deadlines.",
+      "label": "negative"
+    },
+    {
+      "text": "I have a tendency to give up easily when faced with obstacles.",
+      "label": "negative"
+    },
+    {
+      "text": "I believe that my efforts won't make a difference or lead to success.",
+      "label": "negative"
+    },
+    {
+      "text": "I lack discipline and find it challenging to maintain consistent effort.",
+      "label": "negative"
+    },
+    {
+      "text": "I have a negative attitude towards challenges and view them as barriers.",
+      "label": "negative"
+    },
+    {
+      "text": "I struggle with self-discipline and often get distracted from my goals.",
+      "label": "negative"
+    },
+    {
+      "text": "I have a fear of rejection that prevents me from taking necessary risks.",
+      "label": "negative"
+    },
+    {
+      "text": "I often feel overwhelmed by the expectations and pressure placed upon me.",
+      "label": "negative"
+    },
+    {
+      "text": "I lack support from others, which makes it harder to stay motivated.",
+      "label": "negative"
+    },
+    {
+      "text": "I have a tendency to dwell on past failures and mistakes.",
+      "label": "negative"
+    },
+    {
+      "text": "I have limited extracurricular involvement and little to no achievements.",
+      "label": "negative"
+    },
+    {
+      "text": "I have difficulty managing my time and often procrastinate.",
+      "label": "negative"
+    },
+    {
+      "text": "I have a weak academic background with below-average grades.",
+      "label": "negative"
+    },
+    {
+      "text": "I lack passion and interest in my chosen field of study.",
+      "label": "negative"
+    },
+    {
+      "text": "I have poor interpersonal skills and struggle to work with others.",
+      "label": "negative"
+    },
+    {
+      "text": "good experience at work environment",
+      "label": "positive"
+    },
+    {
+      "text": "good experience",
+      "label": "positive"
+    },
+    
+    {
+      "text": "I struggle with critical thinking and have trouble analyzing problems.",
+      "label": "negative"
+    },
+    {
+      "text": "I have received negative feedback from my teachers and mentors.",
+      "label": "negative"
+    }
+    
+  ]
+}

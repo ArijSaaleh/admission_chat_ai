@@ -1,1 +1,25 @@
-<p>sidebar works!</p>
+<div class="sidebar" [ngClass]="{ 'expanded': isSidebarExpanded }">
+  <div class="logo">
+    <a routerLink="/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_ESPRIT_-_Tunisie.png" />
+    </a>
+</div>
+  <div class="toggle-button" (click)="toggleSidebar()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul>
+      <li>
+        <a href="#" (click)="selectItem('interviews')" [ngClass]="{ 'active': selectedItem === 'interviews' }">
+          <i class="fas fa-file-alt icon"></i>
+          Interviews
+        </a>
+      </li>
+      <li>
+        <a href="#" (click)="selectItem('users')" [ngClass]="{ 'active': selectedItem === 'users' }">
+          <i class="fas fa-users icon"></i>
+          Users
+        </a>
+      </li>
+    </ul>
+  </div>
+  

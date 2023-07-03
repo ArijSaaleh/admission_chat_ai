@@ -23,4 +23,8 @@ export class InterviewService {
     const url = `${this.baseUrl}/interview/${userId}`;
     return this.http.get<Interview>(url);
   }
+  getInterviews(): Observable<Interview[]> {
+    const url = `${this.baseUrl}/interviews`;
+    return this.http.get<Interview[]>(url,{ withCredentials: true });
+  }
 }

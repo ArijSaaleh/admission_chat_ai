@@ -7,6 +7,7 @@ import { RegistrationComponent } from './authentication/registration/registratio
 import { MainComponent } from './interview/main/main.component';
 import { AuthGuard } from './services/auth.guard';
 import { InterviewResultComponent } from './interview/interview-result/interview-result.component';
+import { DashboardComponent } from './admin/dashboard/dashboard.component';
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'about', component: AboutUsComponent },
   { path: 'register', component: RegistrationComponent },
   { path: 'aboutUs', component: AboutUsComponent },
-  { path: 'result/:userId', component: InterviewResultComponent  }
+  { path: 'result/:userId', component: InterviewResultComponent  },
+  { path: 'admin', component: DashboardComponent}
 
 
 ];

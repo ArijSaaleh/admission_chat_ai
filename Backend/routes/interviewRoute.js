@@ -98,6 +98,21 @@ router.get('/interview/:userId', async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
+// GET /api/admission/interviews
+router.get('/interviews', authenticateToken, async (req, res) => {
+    try {
+      // Retrieve all interviews
+      const interviews = await Interview.find()
+        .populate('candidate', 'name') // Populate the candidate field with the user's name
+        .populate('questions.question', 'text'); // Populate the questions field with the question text
+  
+      res.json(interviews);
+    } catch (error) {
+      console.error('Error retrieving interviews:', error);
+      res.status(500).json({ error: 'Internal Server Error' });
+    }
+  });
+  
 
 module.exports = router;
 

@@ -113,5 +113,23 @@ router.get('/protected', authenticateToken, (req, res) => {
 });
 // Logout the user
 router.post('/logout', authenticateToken, logout);
+// Retrieve a username by ID
+router.get('/username/:userId', async (req, res) => {
+  try {
+    const userId = req.params.userId;
 
+    // Find the user by the provided ID
+    const user = await User.findById(userId);
+
+    // If the user doesn't exist, return an error
+    if (!user) {
+      return res.status(404).json({ error: 'User not found' });
+    }
+
+    // Return the username of the user
+    res.json({ username: user.username });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
 module.exports = router;

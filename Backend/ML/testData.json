@@ -1,0 +1,162 @@
+[
+    {
+        "text": "I am highly motivated and dedicated to pursuing my education.",
+        "label": "positive"
+    },
+    {
+        "text": "I have a strong academic background with excellent grades.",
+        "label": "positive"
+    },
+    {
+        "text": "I actively participate in various community service activities.",
+        "label": "positive"
+    },
+    {
+        "text": "I have strong leadership skills and have held positions of responsibility.",
+        "label": "positive"
+    },
+    {
+        "text": "I have conducted research in my field of interest.",
+        "label": "positive"
+    },
+    {
+        "text": "I have received recognition for my achievements in extracurricular activities.",
+        "label": "positive"
+    },
+    {
+        "text": "I possess excellent communication and interpersonal skills.",
+        "label": "positive"
+    },
+    {
+        "text": "I am enthusiastic about learning and constantly seek knowledge.",
+        "label": "positive"
+    },
+    {
+        "text": "I have a strong work ethic and consistently meet deadlines.",
+        "label": "positive"
+    },
+    {
+        "text": "I actively engage in collaborative projects and group work.",
+        "label": "positive"
+    },
+    {
+        "text": "I have a well-rounded background with diverse experiences.",
+        "label": "positive"
+    },
+    {
+        "text": "I have a clear career goal and a plan to achieve it.",
+        "label": "positive"
+    },
+    {
+        "text": "I am open-minded and embrace new challenges and opportunities.",
+        "label": "positive"
+    },
+    {
+        "text": "I have strong problem-solving skills and can think critically.",
+        "label": "positive"
+    },
+    {
+        "text": "I have a passion for my chosen field of study.",
+        "label": "positive"
+    },
+    {
+        "text": "I have strong time management skills and can balance multiple tasks effectively.",
+        "label": "positive"
+    },
+    {
+        "text": "I have a positive attitude and adapt well to different situations.",
+        "label": "positive"
+    },
+    {
+        "text": "I have received positive feedback from my teachers and mentors.",
+        "label": "positive"
+    },
+    {
+        "text": "I have demonstrated a commitment to continuous learning and personal growth.",
+        "label": "positive"
+    },
+    {
+        "text": "I have relevant work experience in the field.",
+        "label": "positive"
+    },
+    {
+        "text": "I have good problem-solving skills and can handle difficult situations.",
+        "label": "negative"
+    },
+    {
+        "text": "I struggle with time management and often miss deadlines.",
+        "label": "negative"
+    },
+    {
+        "text": "I lack experience in the field and need more training.",
+        "label": "negative"
+    },
+    {
+        "text": "I have difficulty working in teams and prefer to work alone.",
+        "label": "negative"
+    },
+    {
+        "text": "I am not confident in my abilities and often doubt myself.",
+        "label": "negative"
+    },
+    {
+        "text": "I have a poor academic record with low grades.",
+        "label": "negative"
+    },
+    {
+        "text": "I struggle with communication and have difficulty expressing my ideas.",
+        "label": "negative"
+    },
+    {
+        "text": "I lack motivation and find it hard to stay focused.",
+        "label": "negative"
+    },
+    {
+        "text": "I have a negative attitude and find it hard to adapt to new situations.",
+        "label": "negative"
+    },
+    {
+        "text": "I have a limited understanding of the subject matter.",
+        "label": "negative"
+    },
+    {
+        "text": "I have poor problem-solving skills and often get stuck.",
+        "label": "negative"
+    },
+    {
+        "text": "I struggle with organization and often feel overwhelmed.",
+        "label": "negative"
+    },
+    {
+        "text": "I lack leadership skills and have not held any positions of responsibility.",
+        "label": "negative"
+    },
+    {
+        "text": "I have limited extracurricular involvement and little to no achievements.",
+        "label": "negative"
+    },
+    {
+        "text": "I have difficulty managing my time and often procrastinate.",
+        "label": "negative"
+    },
+    {
+        "text": "I have a weak academic background with below-average grades.",
+        "label": "negative"
+    },
+    {
+        "text": "I lack passion and interest in my chosen field of study.",
+        "label": "negative"
+    },
+    {
+        "text": "I have poor interpersonal skills and struggle to work with others.",
+        "label": "negative"
+    },
+    {
+        "text": "I struggle with critical thinking and have trouble analyzing problems.",
+        "label": "negative"
+    },
+    {
+        "text": "I have received negative feedback from my teachers and mentors.",
+        "label": "negative"
+    }
+]

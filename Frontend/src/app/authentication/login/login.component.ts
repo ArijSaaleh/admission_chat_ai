@@ -37,6 +37,7 @@ export class LoginComponent implements OnInit {
           localStorage.setItem('token', token);
 
           if (response.user.role == 'candidate') {
+            console.log(response.user.role)
             this.router.navigate(['/interview']);
           } else {
             this.router.navigate(['/admin']);

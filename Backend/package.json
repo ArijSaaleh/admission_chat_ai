@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/dialogflow": "^5.8.0",
+    "@tensorflow/tfjs-node": "^4.8.0",
     "bcrypt": "^5.1.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -18,6 +19,9 @@
     "express-session": "^1.17.3",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.3.0",
-    "nodemon": "^2.0.22"
+    "natural": "^6.5.0",
+    "node-stopwords-filter": "^0.0.1",
+    "nodemon": "^2.0.22",
+    "stopword": "^2.0.8"
   }
 }

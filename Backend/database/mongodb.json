@@ -1,5 +1,5 @@
 {
     "mongo": {
-        "url": "mongodb+srv://root:root@cluster0.ypndu.mongodb.net/AI-APP"
+        
     }
 }
